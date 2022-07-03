@@ -5,6 +5,9 @@
 } */
 /* To normalize the value you’ll need
 to check its runtime type and do the conversion using JavaScript constructs */
-function asNumber(val) {
-    return typeof (val) === 'string' ? Number(val) : val;
-}
+var chap1_3_4;
+(function (chap1_3_4) {
+    function asNumber(val) {
+        return typeof (val) === 'string' ? Number(val) : val;
+    }
+})(chap1_3_4 || (chap1_3_4 = {}));
